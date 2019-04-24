@@ -24,11 +24,6 @@ ctrl-c
 
 
 ### NOW BUILD APK
--- build
-apktool b folder -o cari.apk
-
--- buat tandatangan
-keytool -genkey -v -keystore my-release.jks
-
--- tandatangani
-apksigner -ks my-release.jks cari.apk
+* apktool b folder -o cari.apk
+* keytool -genkey -v -keystore my-release.jks
+* apksigner -ks my-release.jks cari.apk
