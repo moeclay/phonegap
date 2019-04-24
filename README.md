@@ -1,18 +1,20 @@
--- Buat Phone Gap
+# Memulai Project Phonegap
+
+` ### Install nodejs `
 $ curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
 $ sudo apt-get install -y nodejs
 
--- cek versi
+### Cek Versi
 $ node --version  	(8.16.0)
 $ npm --version 	(6.4.1)
 
--- install phonegap
+### Install Phonegap
 $ sudo npm install -g phonegap
 
--- buat projek
+### Buat Projek
 $ phonegap create aplikasi/
 
--- run projek
+### Run Projek
 $ cd aplikasi
 $ phonegap serve
 
@@ -21,7 +23,7 @@ ctrl-c
 
 
 
-### NOW BUILD APK ###
+### NOW BUILD APK
 -- build
 apktool b folder -o cari.apk
 
